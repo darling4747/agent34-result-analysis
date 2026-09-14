@@ -11,7 +11,7 @@ class Base(DeclarativeBase):
 
 def _get_engine():
     settings = get_settings()
-    url = settings.DATABASE_URL
+    url = settings.sqlalchemy_database_url
     if url.startswith("sqlite"):
         eng = create_engine(url, connect_args={"check_same_thread": False})
 

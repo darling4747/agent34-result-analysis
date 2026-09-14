@@ -35,8 +35,17 @@ class Settings(BaseSettings):
         return json.loads(self.GRADE_MAP_JSON)
 
     @property
+    def sqlalchemy_database_url(self) -> str:
+        url = self.DATABASE_URL.strip()
+        if url.startswith("postgres://"):
+            return "postgresql+psycopg2://" + url[len("postgres://"):]
+        if url.startswith("postgresql://") and not url.startswith("postgresql+psycopg2://"):
+            return "postgresql+psycopg2://" + url[len("postgresql://"):]
+        return url
+
+    @property
     def is_sqlite(self) -> bool:
-        return self.DATABASE_URL.startswith('sqlite')
+        return self.sqlalchemy_database_url.startswith('sqlite')
 
     def warn_if_sqlite(self) -> None:
         if self.is_sqlite:

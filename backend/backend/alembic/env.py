@@ -12,7 +12,7 @@ if config.config_file_name is not None:
 from app.config import get_settings
 get_settings.cache_clear()
 settings = get_settings()
-config.set_main_option("sqlalchemy.url", settings.DATABASE_URL)
+config.set_main_option("sqlalchemy.url", settings.sqlalchemy_database_url)
 
 from app.database import Base
 from app import models  # noqa: F401
