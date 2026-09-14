@@ -152,6 +152,9 @@ def _seed_admin(db_session):
         )
         db_session.add(u)
     else:
+        u.password_hash = hash_password("FixturePass99!X")
+        u.must_change_password = False
+        u.is_active = True
         u.mfa_enabled = False
         u.mfa_secret_encrypted = None
         u.mfa_pending_secret_encrypted = None

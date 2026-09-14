@@ -140,19 +140,35 @@ export async function getFaculty(filters: ResultFilters): Promise<FacultyMetrics
     params: toParams(filters),
   });
   const list = unwrap<any[]>(response.data) ?? [];
-  return list.map((f) => ({
-    facultyId: f.facultyId ?? f.employee_id ?? String(f.id ?? ''),
-    facultyName: f.facultyName ?? f.faculty_name ?? '',
-    department: f.department ?? '',
-    coursesHandled: f.coursesHandled ?? f.courses_handled ?? [],
-    totalStudents: f.totalStudents ?? f.total_students ?? 0,
-    averageMarks: f.averageMarks ?? f.average_marks ?? 0,
-    passRate: f.passRate ?? f.pass_rate ?? f.pass_percentage ?? 0,
-    historicalBaseline: f.historicalBaseline ?? f.historical_baseline ?? null,
-    deviation: f.deviation ?? null,
-    coursesRequiringReview: f.coursesRequiringReview ?? f.courses_requiring_review ?? [],
-    contextNote: f.contextNote ?? f.context_note ?? '',
-  }));
+  return list.map((f) => {
+    const rawCourses = f.coursesHandled ?? f.courses_handled;
+    const coursesHandled = Array.isArray(rawCourses)
+      ? rawCourses.map(String)
+      : typeof rawCourses === 'string' && rawCourses
+      ? [rawCourses]
+      : [];
+
+    const rawReview = f.coursesRequiringReview ?? f.courses_requiring_review;
+    const coursesRequiringReview = Array.isArray(rawReview)
+      ? rawReview.map(String)
+      : typeof rawReview === 'string' && rawReview
+      ? [rawReview]
+      : [];
+
+    return {
+      facultyId: f.facultyId ?? f.employee_id ?? String(f.id ?? ''),
+      facultyName: f.facultyName ?? f.faculty_name ?? '',
+      department: f.department ?? '',
+      coursesHandled,
+      totalStudents: f.totalStudents ?? f.total_students ?? 0,
+      averageMarks: f.averageMarks ?? f.average_marks ?? 0,
+      passRate: f.passRate ?? f.pass_rate ?? f.pass_percentage ?? 0,
+      historicalBaseline: f.historicalBaseline ?? f.historical_baseline ?? null,
+      deviation: f.deviation ?? null,
+      coursesRequiringReview,
+      contextNote: f.contextNote ?? f.context_note ?? '',
+    };
+  });
 }
 
 // ─── Merit List ───────────────────────────────────────────────────────────────

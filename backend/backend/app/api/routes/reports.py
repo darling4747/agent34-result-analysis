@@ -26,9 +26,33 @@ from ...services.metrics import MetricsService
 from ...services.narrative import NarrativeService
 from ...services.report_generator import ReportGenerator
 from ...services.section_analysis import SectionAnalysisService
-from ...utils.helpers import nan_safe_dict, nan_safe_list
-
 router = APIRouter()
+
+
+@router.get("/jobs", response_model=ApiResponse[list[ReportJobResponse]])
+@router.get("", response_model=ApiResponse[list[ReportJobResponse]])
+def list_reports(
+    db: Session = Depends(get_db),
+    _user: object = Depends(require_permission(P.REPORT_GENERATE)),
+):
+    """List recent report generation jobs."""
+    runs = db.query(AnalysisRun).order_by(AnalysisRun.created_at.desc()).limit(20).all()
+    data = [
+        ReportJobResponse(
+            id=run.id,
+            status=run.status,
+            report_path=run.report_path,
+            report_format=run.report_format,
+            academic_year=run.academic_year,
+            semester=run.semester,
+            department=run.department,
+            created_at=run.created_at,
+            completed_at=run.completed_at,
+            download_url=f"/api/reports/{run.id}/download" if run.status == "COMPLETED" else None,
+        )
+        for run in runs
+    ]
+    return ApiResponse(success=True, data=data)
 
 
 @router.post("/generate", response_model=ApiResponse[ReportJobResponse])

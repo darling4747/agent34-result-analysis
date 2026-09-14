@@ -78,7 +78,7 @@ class FacultyAnalysisService:
                 "faculty_id": (int(faculty_id_val) if str(faculty_id_val).isdigit() else str(faculty_id_val)) if faculty_id_val is not None else None,
                 "faculty_name": str(faculty_name),
                 "department": str(department) if department else None,
-                "courses_handled": len(courses),
+                "courses_handled": courses,
                 "total_students": total_students,
                 "avg_marks": avg_marks,
                 "pass_rate": pass_rate,

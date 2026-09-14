@@ -1,5 +1,5 @@
 import { useCallback, useState } from 'react';
-import { generateReport, getReportDownloadUrl, getReportJob } from '@/api/reportsApi';
+import { generateReport, getReportDownloadUrl, getReportJob, downloadReportFile } from '@/api/reportsApi';
 import type { ReportJob, ReportRequest, ReportStatus } from '@/types/report';
 import { ApiError } from '@/api/client';
 
@@ -35,8 +35,10 @@ export function useReportGenerator() {
     }
   }, []);
 
-  const download = useCallback((jobId: string) => {
-    window.open(getReportDownloadUrl(jobId), '_blank', 'noopener,noreferrer');
+  const download = useCallback((jobId: string, fileName?: string) => {
+    downloadReportFile(jobId, fileName).catch(() => {
+      window.open(getReportDownloadUrl(jobId), '_blank', 'noopener,noreferrer');
+    });
   }, []);
 
   const reset = useCallback(() => setState(IDLE), []);

@@ -99,7 +99,14 @@ function buildColumns(onSelect: (f: FacultyMetrics) => void): Column<FacultyMetr
       ),
       sortValue: (r) => r.facultyName,
     },
-    { key: 'courses',   header: 'Courses',          accessor: (r) => <span className="text-xs font-mono text-gray-700">{r.coursesHandled.join(', ')}</span> },
+    {
+      key: 'courses',
+      header: 'Courses',
+      accessor: (r) => {
+        const list = Array.isArray(r.coursesHandled) ? r.coursesHandled : [];
+        return <span className="text-xs font-mono text-gray-700">{list.join(', ') || '—'}</span>;
+      },
+    },
     { key: 'students',  header: 'Students',         accessor: (r) => r.totalStudents,                                                                                                                sortValue: (r) => r.totalStudents },
     { key: 'avg',       header: 'Avg Marks',        accessor: (r) => formatMarks(r.averageMarks),                                                                                                     sortValue: (r) => r.averageMarks },
     { key: 'pass',      header: 'Pass Rate',        accessor: (r) => <span className={`font-medium ${r.passRate >= 75 ? 'text-emerald-700' : r.passRate >= 60 ? 'text-yellow-700' : 'text-red-700'}`}>{formatPercentage(r.passRate)}</span>, sortValue: (r) => r.passRate },
@@ -115,9 +122,12 @@ function buildColumns(onSelect: (f: FacultyMetrics) => void): Column<FacultyMetr
     {
       key: 'review',
       header: 'Review Needed',
-      accessor: (r) => r.coursesRequiringReview.length > 0
-        ? <span className="text-xs text-red-700 font-medium">{r.coursesRequiringReview.join(', ')}</span>
-        : <span className="text-emerald-600 text-xs">—</span>,
+      accessor: (r) => {
+        const reviewList = Array.isArray(r.coursesRequiringReview) ? r.coursesRequiringReview : [];
+        return reviewList.length > 0
+          ? <span className="text-xs text-red-700 font-medium">{reviewList.join(', ')}</span>
+          : <span className="text-emerald-600 text-xs">—</span>;
+      },
     },
   ];
 }
