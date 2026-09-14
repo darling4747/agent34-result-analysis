@@ -1,0 +1,10 @@
+[
+  {
+    "id": "TIMEOUT-001",
+    "category": "Performance",
+    "description": "Large batch bcrypt-heavy parametrized tests time out in 120s CI window when run together",
+    "reason": "Each test individually passes; timeout is runner-level not logic-level",
+    "recommendation": "Run with --timeout=300 or split into parallel workers for CI",
+    "severity": "LOW"
+  }
+]

@@ -1,0 +1,421 @@
+Roll No,Student Name,Sub Code,Sub Name,Internal,External,Total,Grade,Result,Branch
+22CSE001,Student 1,CS101,Data Structures,26.0,61.0,87.0,A+,PASS,Computer Science & Engineering
+22CSE001,Student 1,CS102,Algorithms,26.0,61.0,87.0,A+,PASS,Computer Science & Engineering
+22CSE001,Student 1,CS103,Database Systems,26.0,61.0,87.0,A+,PASS,Computer Science & Engineering
+22CSE001,Student 1,CS104,Operating Systems,26.0,61.0,87.0,A+,PASS,Computer Science & Engineering
+22CSE001,Student 1,CS105,Computer Networks,26.0,61.0,87.0,A+,PASS,Computer Science & Engineering
+22CSE001,Student 1,CS106,Software Engineering,26.0,61.0,87.0,A+,PASS,Computer Science & Engineering
+22CSE002,Student 2,CS101,Data Structures,27.0,62.0,89.0,A+,PASS,Computer Science & Engineering
+22CSE002,Student 2,CS102,Algorithms,27.0,62.0,89.0,A+,PASS,Computer Science & Engineering
+22CSE002,Student 2,CS103,Database Systems,27.0,62.0,89.0,A+,PASS,Computer Science & Engineering
+22CSE002,Student 2,CS104,Operating Systems,27.0,62.0,89.0,A+,PASS,Computer Science & Engineering
+22CSE002,Student 2,CS105,Computer Networks,27.0,62.0,89.0,A+,PASS,Computer Science & Engineering
+22CSE002,Student 2,CS106,Software Engineering,27.0,62.0,89.0,A+,PASS,Computer Science & Engineering
+22CSE003,Student 3,CS101,Data Structures,28.0,63.0,91.0,O,PASS,Computer Science & Engineering
+22CSE003,Student 3,CS102,Algorithms,28.0,63.0,91.0,O,PASS,Computer Science & Engineering
+22CSE003,Student 3,CS103,Database Systems,28.0,63.0,91.0,O,PASS,Computer Science & Engineering
+22CSE003,Student 3,CS104,Operating Systems,28.0,63.0,91.0,O,PASS,Computer Science & Engineering
+22CSE003,Student 3,CS105,Computer Networks,28.0,63.0,91.0,O,PASS,Computer Science & Engineering
+22CSE003,Student 3,CS106,Software Engineering,28.0,63.0,91.0,O,PASS,Computer Science & Engineering
+22CSE004,Student 4,CS101,Data Structures,29.0,64.0,93.0,O,PASS,Computer Science & Engineering
+22CSE004,Student 4,CS102,Algorithms,29.0,64.0,93.0,O,PASS,Computer Science & Engineering
+22CSE004,Student 4,CS103,Database Systems,29.0,64.0,93.0,O,PASS,Computer Science & Engineering
+22CSE004,Student 4,CS104,Operating Systems,29.0,64.0,93.0,O,PASS,Computer Science & Engineering
+22CSE004,Student 4,CS105,Computer Networks,29.0,64.0,93.0,O,PASS,Computer Science & Engineering
+22CSE004,Student 4,CS106,Software Engineering,29.0,64.0,93.0,O,PASS,Computer Science & Engineering
+22CSE005,Student 5,CS101,Data Structures,25.0,65.0,90.0,O,PASS,Computer Science & Engineering
+22CSE005,Student 5,CS102,Algorithms,25.0,65.0,90.0,O,PASS,Computer Science & Engineering
+22CSE005,Student 5,CS103,Database Systems,25.0,65.0,90.0,O,PASS,Computer Science & Engineering
+22CSE005,Student 5,CS104,Operating Systems,25.0,65.0,90.0,O,PASS,Computer Science & Engineering
+22CSE005,Student 5,CS105,Computer Networks,25.0,65.0,90.0,O,PASS,Computer Science & Engineering
+22CSE005,Student 5,CS106,Software Engineering,25.0,65.0,90.0,O,PASS,Computer Science & Engineering
+22CSE006,Student 6,CS101,Data Structures,26.0,66.0,92.0,O,PASS,Computer Science & Engineering
+22CSE006,Student 6,CS102,Algorithms,26.0,66.0,92.0,O,PASS,Computer Science & Engineering
+22CSE006,Student 6,CS103,Database Systems,26.0,66.0,92.0,O,PASS,Computer Science & Engineering
+22CSE006,Student 6,CS104,Operating Systems,26.0,66.0,92.0,O,PASS,Computer Science & Engineering
+22CSE006,Student 6,CS105,Computer Networks,26.0,66.0,92.0,O,PASS,Computer Science & Engineering
+22CSE006,Student 6,CS106,Software Engineering,26.0,66.0,92.0,O,PASS,Computer Science & Engineering
+22CSE007,Student 7,CS101,Data Structures,27.0,67.0,94.0,O,PASS,Computer Science & Engineering
+22CSE007,Student 7,CS102,Algorithms,27.0,67.0,94.0,O,PASS,Computer Science & Engineering
+22CSE007,Student 7,CS103,Database Systems,27.0,67.0,94.0,O,PASS,Computer Science & Engineering
+22CSE007,Student 7,CS104,Operating Systems,27.0,67.0,94.0,O,PASS,Computer Science & Engineering
+22CSE007,Student 7,CS105,Computer Networks,27.0,67.0,94.0,O,PASS,Computer Science & Engineering
+22CSE007,Student 7,CS106,Software Engineering,27.0,67.0,94.0,O,PASS,Computer Science & Engineering
+22CSE008,Student 8,CS101,Data Structures,28.0,68.0,96.0,O,PASS,Computer Science & Engineering
+22CSE008,Student 8,CS102,Algorithms,28.0,68.0,96.0,O,PASS,Computer Science & Engineering
+22CSE008,Student 8,CS103,Database Systems,28.0,68.0,96.0,O,PASS,Computer Science & Engineering
+22CSE008,Student 8,CS104,Operating Systems,28.0,68.0,96.0,O,PASS,Computer Science & Engineering
+22CSE008,Student 8,CS105,Computer Networks,28.0,68.0,96.0,O,PASS,Computer Science & Engineering
+22CSE008,Student 8,CS106,Software Engineering,28.0,68.0,96.0,O,PASS,Computer Science & Engineering
+22CSE009,Student 9,CS101,Data Structures,29.0,69.0,98.0,O,PASS,Computer Science & Engineering
+22CSE009,Student 9,CS102,Algorithms,29.0,69.0,98.0,O,PASS,Computer Science & Engineering
+22CSE009,Student 9,CS103,Database Systems,29.0,69.0,98.0,O,PASS,Computer Science & Engineering
+22CSE009,Student 9,CS104,Operating Systems,29.0,69.0,98.0,O,PASS,Computer Science & Engineering
+22CSE009,Student 9,CS105,Computer Networks,29.0,69.0,98.0,O,PASS,Computer Science & Engineering
+22CSE009,Student 9,CS106,Software Engineering,29.0,69.0,98.0,O,PASS,Computer Science & Engineering
+22CSE010,Student 10,CS101,Data Structures,25.0,60.0,85.0,A+,PASS,Computer Science & Engineering
+22CSE010,Student 10,CS102,Algorithms,25.0,60.0,85.0,A+,PASS,Computer Science & Engineering
+22CSE010,Student 10,CS103,Database Systems,25.0,60.0,85.0,A+,PASS,Computer Science & Engineering
+22CSE010,Student 10,CS104,Operating Systems,25.0,60.0,85.0,A+,PASS,Computer Science & Engineering
+22CSE010,Student 10,CS105,Computer Networks,25.0,60.0,85.0,A+,PASS,Computer Science & Engineering
+22CSE010,Student 10,CS106,Software Engineering,25.0,60.0,85.0,A+,PASS,Computer Science & Engineering
+22CSE011,Student 11,CS101,Data Structures,26.0,61.0,87.0,A+,PASS,Computer Science & Engineering
+22CSE011,Student 11,CS102,Algorithms,26.0,61.0,87.0,A+,PASS,Computer Science & Engineering
+22CSE011,Student 11,CS103,Database Systems,26.0,61.0,87.0,A+,PASS,Computer Science & Engineering
+22CSE011,Student 11,CS104,Operating Systems,26.0,61.0,87.0,A+,PASS,Computer Science & Engineering
+22CSE011,Student 11,CS105,Computer Networks,26.0,61.0,87.0,A+,PASS,Computer Science & Engineering
+22CSE011,Student 11,CS106,Software Engineering,26.0,61.0,87.0,A+,PASS,Computer Science & Engineering
+22CSE012,Student 12,CS101,Data Structures,27.0,62.0,89.0,A+,PASS,Computer Science & Engineering
+22CSE012,Student 12,CS102,Algorithms,27.0,62.0,89.0,A+,PASS,Computer Science & Engineering
+22CSE012,Student 12,CS103,Database Systems,27.0,62.0,89.0,A+,PASS,Computer Science & Engineering
+22CSE012,Student 12,CS104,Operating Systems,27.0,62.0,89.0,A+,PASS,Computer Science & Engineering
+22CSE012,Student 12,CS105,Computer Networks,27.0,62.0,89.0,A+,PASS,Computer Science & Engineering
+22CSE012,Student 12,CS106,Software Engineering,27.0,62.0,89.0,A+,PASS,Computer Science & Engineering
+22CSE013,Student 13,CS101,Data Structures,28.0,63.0,91.0,O,PASS,Computer Science & Engineering
+22CSE013,Student 13,CS102,Algorithms,28.0,63.0,91.0,O,PASS,Computer Science & Engineering
+22CSE013,Student 13,CS103,Database Systems,28.0,63.0,91.0,O,PASS,Computer Science & Engineering
+22CSE013,Student 13,CS104,Operating Systems,28.0,63.0,91.0,O,PASS,Computer Science & Engineering
+22CSE013,Student 13,CS105,Computer Networks,28.0,63.0,91.0,O,PASS,Computer Science & Engineering
+22CSE013,Student 13,CS106,Software Engineering,28.0,63.0,91.0,O,PASS,Computer Science & Engineering
+22CSE014,Student 14,CS101,Data Structures,29.0,64.0,93.0,O,PASS,Computer Science & Engineering
+22CSE014,Student 14,CS102,Algorithms,29.0,64.0,93.0,O,PASS,Computer Science & Engineering
+22CSE014,Student 14,CS103,Database Systems,29.0,64.0,93.0,O,PASS,Computer Science & Engineering
+22CSE014,Student 14,CS104,Operating Systems,29.0,64.0,93.0,O,PASS,Computer Science & Engineering
+22CSE014,Student 14,CS105,Computer Networks,29.0,64.0,93.0,O,PASS,Computer Science & Engineering
+22CSE014,Student 14,CS106,Software Engineering,29.0,64.0,93.0,O,PASS,Computer Science & Engineering
+22CSE015,Student 15,CS101,Data Structures,25.0,65.0,90.0,O,PASS,Computer Science & Engineering
+22CSE015,Student 15,CS102,Algorithms,25.0,65.0,90.0,O,PASS,Computer Science & Engineering
+22CSE015,Student 15,CS103,Database Systems,25.0,65.0,90.0,O,PASS,Computer Science & Engineering
+22CSE015,Student 15,CS104,Operating Systems,25.0,65.0,90.0,O,PASS,Computer Science & Engineering
+22CSE015,Student 15,CS105,Computer Networks,25.0,65.0,90.0,O,PASS,Computer Science & Engineering
+22CSE015,Student 15,CS106,Software Engineering,25.0,65.0,90.0,O,PASS,Computer Science & Engineering
+22CSE016,Student 16,CS101,Data Structures,26.0,66.0,92.0,O,PASS,Computer Science & Engineering
+22CSE016,Student 16,CS102,Algorithms,26.0,66.0,92.0,O,PASS,Computer Science & Engineering
+22CSE016,Student 16,CS103,Database Systems,26.0,66.0,92.0,O,PASS,Computer Science & Engineering
+22CSE016,Student 16,CS104,Operating Systems,26.0,66.0,92.0,O,PASS,Computer Science & Engineering
+22CSE016,Student 16,CS105,Computer Networks,26.0,66.0,92.0,O,PASS,Computer Science & Engineering
+22CSE016,Student 16,CS106,Software Engineering,26.0,66.0,92.0,O,PASS,Computer Science & Engineering
+22CSE017,Student 17,CS101,Data Structures,27.0,67.0,94.0,O,PASS,Computer Science & Engineering
+22CSE017,Student 17,CS102,Algorithms,27.0,67.0,94.0,O,PASS,Computer Science & Engineering
+22CSE017,Student 17,CS103,Database Systems,27.0,67.0,94.0,O,PASS,Computer Science & Engineering
+22CSE017,Student 17,CS104,Operating Systems,27.0,67.0,94.0,O,PASS,Computer Science & Engineering
+22CSE017,Student 17,CS105,Computer Networks,27.0,67.0,94.0,O,PASS,Computer Science & Engineering
+22CSE017,Student 17,CS106,Software Engineering,27.0,67.0,94.0,O,PASS,Computer Science & Engineering
+22CSE018,Student 18,CS101,Data Structures,28.0,68.0,96.0,O,PASS,Computer Science & Engineering
+22CSE018,Student 18,CS102,Algorithms,28.0,68.0,96.0,O,PASS,Computer Science & Engineering
+22CSE018,Student 18,CS103,Database Systems,28.0,68.0,96.0,O,PASS,Computer Science & Engineering
+22CSE018,Student 18,CS104,Operating Systems,28.0,68.0,96.0,O,PASS,Computer Science & Engineering
+22CSE018,Student 18,CS105,Computer Networks,28.0,68.0,96.0,O,PASS,Computer Science & Engineering
+22CSE018,Student 18,CS106,Software Engineering,28.0,68.0,96.0,O,PASS,Computer Science & Engineering
+22CSE019,Student 19,CS101,Data Structures,29.0,69.0,98.0,O,PASS,Computer Science & Engineering
+22CSE019,Student 19,CS102,Algorithms,29.0,69.0,98.0,O,PASS,Computer Science & Engineering
+22CSE019,Student 19,CS103,Database Systems,29.0,69.0,98.0,O,PASS,Computer Science & Engineering
+22CSE019,Student 19,CS104,Operating Systems,29.0,69.0,98.0,O,PASS,Computer Science & Engineering
+22CSE019,Student 19,CS105,Computer Networks,29.0,69.0,98.0,O,PASS,Computer Science & Engineering
+22CSE019,Student 19,CS106,Software Engineering,29.0,69.0,98.0,O,PASS,Computer Science & Engineering
+22CSE020,Student 20,CS101,Data Structures,25.0,60.0,85.0,A+,PASS,Computer Science & Engineering
+22CSE020,Student 20,CS102,Algorithms,25.0,60.0,85.0,A+,PASS,Computer Science & Engineering
+22CSE020,Student 20,CS103,Database Systems,25.0,60.0,85.0,A+,PASS,Computer Science & Engineering
+22CSE020,Student 20,CS104,Operating Systems,25.0,60.0,85.0,A+,PASS,Computer Science & Engineering
+22CSE020,Student 20,CS105,Computer Networks,25.0,60.0,85.0,A+,PASS,Computer Science & Engineering
+22CSE020,Student 20,CS106,Software Engineering,25.0,60.0,85.0,A+,PASS,Computer Science & Engineering
+22CSE021,Student 21,CS101,Data Structures,26.0,61.0,87.0,A+,PASS,Computer Science & Engineering
+22CSE021,Student 21,CS102,Algorithms,26.0,61.0,87.0,A+,PASS,Computer Science & Engineering
+22CSE021,Student 21,CS103,Database Systems,26.0,61.0,87.0,A+,PASS,Computer Science & Engineering
+22CSE021,Student 21,CS104,Operating Systems,26.0,61.0,87.0,A+,PASS,Computer Science & Engineering
+22CSE021,Student 21,CS105,Computer Networks,26.0,61.0,87.0,A+,PASS,Computer Science & Engineering
+22CSE021,Student 21,CS106,Software Engineering,26.0,61.0,87.0,A+,PASS,Computer Science & Engineering
+22CSE022,Student 22,CS101,Data Structures,27.0,62.0,89.0,A+,PASS,Computer Science & Engineering
+22CSE022,Student 22,CS102,Algorithms,27.0,62.0,89.0,A+,PASS,Computer Science & Engineering
+22CSE022,Student 22,CS103,Database Systems,27.0,62.0,89.0,A+,PASS,Computer Science & Engineering
+22CSE022,Student 22,CS104,Operating Systems,27.0,62.0,89.0,A+,PASS,Computer Science & Engineering
+22CSE022,Student 22,CS105,Computer Networks,27.0,62.0,89.0,A+,PASS,Computer Science & Engineering
+22CSE022,Student 22,CS106,Software Engineering,27.0,62.0,89.0,A+,PASS,Computer Science & Engineering
+22CSE023,Student 23,CS101,Data Structures,28.0,63.0,91.0,O,PASS,Computer Science & Engineering
+22CSE023,Student 23,CS102,Algorithms,28.0,63.0,91.0,O,PASS,Computer Science & Engineering
+22CSE023,Student 23,CS103,Database Systems,28.0,63.0,91.0,O,PASS,Computer Science & Engineering
+22CSE023,Student 23,CS104,Operating Systems,28.0,63.0,91.0,O,PASS,Computer Science & Engineering
+22CSE023,Student 23,CS105,Computer Networks,28.0,63.0,91.0,O,PASS,Computer Science & Engineering
+22CSE023,Student 23,CS106,Software Engineering,28.0,63.0,91.0,O,PASS,Computer Science & Engineering
+22CSE024,Student 24,CS101,Data Structures,29.0,64.0,93.0,O,PASS,Computer Science & Engineering
+22CSE024,Student 24,CS102,Algorithms,29.0,64.0,93.0,O,PASS,Computer Science & Engineering
+22CSE024,Student 24,CS103,Database Systems,29.0,64.0,93.0,O,PASS,Computer Science & Engineering
+22CSE024,Student 24,CS104,Operating Systems,29.0,64.0,93.0,O,PASS,Computer Science & Engineering
+22CSE024,Student 24,CS105,Computer Networks,29.0,64.0,93.0,O,PASS,Computer Science & Engineering
+22CSE024,Student 24,CS106,Software Engineering,29.0,64.0,93.0,O,PASS,Computer Science & Engineering
+22CSE025,Student 25,CS101,Data Structures,25.0,65.0,90.0,O,PASS,Computer Science & Engineering
+22CSE025,Student 25,CS102,Algorithms,25.0,65.0,90.0,O,PASS,Computer Science & Engineering
+22CSE025,Student 25,CS103,Database Systems,25.0,65.0,90.0,O,PASS,Computer Science & Engineering
+22CSE025,Student 25,CS104,Operating Systems,25.0,65.0,90.0,O,PASS,Computer Science & Engineering
+22CSE025,Student 25,CS105,Computer Networks,25.0,65.0,90.0,O,PASS,Computer Science & Engineering
+22CSE025,Student 25,CS106,Software Engineering,25.0,65.0,90.0,O,PASS,Computer Science & Engineering
+22CSE026,Student 26,CS101,Data Structures,26.0,66.0,92.0,O,PASS,Computer Science & Engineering
+22CSE026,Student 26,CS102,Algorithms,26.0,66.0,92.0,O,PASS,Computer Science & Engineering
+22CSE026,Student 26,CS103,Database Systems,26.0,66.0,92.0,O,PASS,Computer Science & Engineering
+22CSE026,Student 26,CS104,Operating Systems,26.0,66.0,92.0,O,PASS,Computer Science & Engineering
+22CSE026,Student 26,CS105,Computer Networks,26.0,66.0,92.0,O,PASS,Computer Science & Engineering
+22CSE026,Student 26,CS106,Software Engineering,26.0,66.0,92.0,O,PASS,Computer Science & Engineering
+22CSE027,Student 27,CS101,Data Structures,27.0,67.0,94.0,O,PASS,Computer Science & Engineering
+22CSE027,Student 27,CS102,Algorithms,27.0,67.0,94.0,O,PASS,Computer Science & Engineering
+22CSE027,Student 27,CS103,Database Systems,27.0,67.0,94.0,O,PASS,Computer Science & Engineering
+22CSE027,Student 27,CS104,Operating Systems,27.0,67.0,94.0,O,PASS,Computer Science & Engineering
+22CSE027,Student 27,CS105,Computer Networks,27.0,67.0,94.0,O,PASS,Computer Science & Engineering
+22CSE027,Student 27,CS106,Software Engineering,27.0,67.0,94.0,O,PASS,Computer Science & Engineering
+22CSE028,Student 28,CS101,Data Structures,28.0,68.0,96.0,O,PASS,Computer Science & Engineering
+22CSE028,Student 28,CS102,Algorithms,28.0,68.0,96.0,O,PASS,Computer Science & Engineering
+22CSE028,Student 28,CS103,Database Systems,28.0,68.0,96.0,O,PASS,Computer Science & Engineering
+22CSE028,Student 28,CS104,Operating Systems,28.0,68.0,96.0,O,PASS,Computer Science & Engineering
+22CSE028,Student 28,CS105,Computer Networks,28.0,68.0,96.0,O,PASS,Computer Science & Engineering
+22CSE028,Student 28,CS106,Software Engineering,28.0,68.0,96.0,O,PASS,Computer Science & Engineering
+22CSE029,Student 29,CS101,Data Structures,29.0,69.0,98.0,O,PASS,Computer Science & Engineering
+22CSE029,Student 29,CS102,Algorithms,29.0,69.0,98.0,O,PASS,Computer Science & Engineering
+22CSE029,Student 29,CS103,Database Systems,29.0,69.0,98.0,O,PASS,Computer Science & Engineering
+22CSE029,Student 29,CS104,Operating Systems,29.0,69.0,98.0,O,PASS,Computer Science & Engineering
+22CSE029,Student 29,CS105,Computer Networks,29.0,69.0,98.0,O,PASS,Computer Science & Engineering
+22CSE029,Student 29,CS106,Software Engineering,29.0,69.0,98.0,O,PASS,Computer Science & Engineering
+22CSE030,Student 30,CS101,Data Structures,25.0,60.0,85.0,A+,PASS,Computer Science & Engineering
+22CSE030,Student 30,CS102,Algorithms,25.0,60.0,85.0,A+,PASS,Computer Science & Engineering
+22CSE030,Student 30,CS103,Database Systems,25.0,60.0,85.0,A+,PASS,Computer Science & Engineering
+22CSE030,Student 30,CS104,Operating Systems,25.0,60.0,85.0,A+,PASS,Computer Science & Engineering
+22CSE030,Student 30,CS105,Computer Networks,25.0,60.0,85.0,A+,PASS,Computer Science & Engineering
+22CSE030,Student 30,CS106,Software Engineering,25.0,60.0,85.0,A+,PASS,Computer Science & Engineering
+22CSE031,Student 31,CS101,Data Structures,26.0,61.0,87.0,A+,PASS,Computer Science & Engineering
+22CSE031,Student 31,CS102,Algorithms,26.0,61.0,87.0,A+,PASS,Computer Science & Engineering
+22CSE031,Student 31,CS103,Database Systems,26.0,61.0,87.0,A+,PASS,Computer Science & Engineering
+22CSE031,Student 31,CS104,Operating Systems,26.0,61.0,87.0,A+,PASS,Computer Science & Engineering
+22CSE031,Student 31,CS105,Computer Networks,26.0,61.0,87.0,A+,PASS,Computer Science & Engineering
+22CSE031,Student 31,CS106,Software Engineering,26.0,61.0,87.0,A+,PASS,Computer Science & Engineering
+22CSE032,Student 32,CS101,Data Structures,27.0,62.0,89.0,A+,PASS,Computer Science & Engineering
+22CSE032,Student 32,CS102,Algorithms,27.0,62.0,89.0,A+,PASS,Computer Science & Engineering
+22CSE032,Student 32,CS103,Database Systems,27.0,62.0,89.0,A+,PASS,Computer Science & Engineering
+22CSE032,Student 32,CS104,Operating Systems,27.0,62.0,89.0,A+,PASS,Computer Science & Engineering
+22CSE032,Student 32,CS105,Computer Networks,27.0,62.0,89.0,A+,PASS,Computer Science & Engineering
+22CSE032,Student 32,CS106,Software Engineering,27.0,62.0,89.0,A+,PASS,Computer Science & Engineering
+22CSE033,Student 33,CS101,Data Structures,28.0,63.0,91.0,O,PASS,Computer Science & Engineering
+22CSE033,Student 33,CS102,Algorithms,28.0,63.0,91.0,O,PASS,Computer Science & Engineering
+22CSE033,Student 33,CS103,Database Systems,28.0,63.0,91.0,O,PASS,Computer Science & Engineering
+22CSE033,Student 33,CS104,Operating Systems,28.0,63.0,91.0,O,PASS,Computer Science & Engineering
+22CSE033,Student 33,CS105,Computer Networks,28.0,63.0,91.0,O,PASS,Computer Science & Engineering
+22CSE033,Student 33,CS106,Software Engineering,28.0,63.0,91.0,O,PASS,Computer Science & Engineering
+22CSE034,Student 34,CS101,Data Structures,29.0,64.0,93.0,O,PASS,Computer Science & Engineering
+22CSE034,Student 34,CS102,Algorithms,29.0,64.0,93.0,O,PASS,Computer Science & Engineering
+22CSE034,Student 34,CS103,Database Systems,29.0,64.0,93.0,O,PASS,Computer Science & Engineering
+22CSE034,Student 34,CS104,Operating Systems,29.0,64.0,93.0,O,PASS,Computer Science & Engineering
+22CSE034,Student 34,CS105,Computer Networks,29.0,64.0,93.0,O,PASS,Computer Science & Engineering
+22CSE034,Student 34,CS106,Software Engineering,29.0,64.0,93.0,O,PASS,Computer Science & Engineering
+22CSE035,Student 35,CS101,Data Structures,25.0,65.0,90.0,O,PASS,Computer Science & Engineering
+22CSE035,Student 35,CS102,Algorithms,25.0,65.0,90.0,O,PASS,Computer Science & Engineering
+22CSE035,Student 35,CS103,Database Systems,25.0,65.0,90.0,O,PASS,Computer Science & Engineering
+22CSE035,Student 35,CS104,Operating Systems,25.0,65.0,90.0,O,PASS,Computer Science & Engineering
+22CSE035,Student 35,CS105,Computer Networks,25.0,65.0,90.0,O,PASS,Computer Science & Engineering
+22CSE035,Student 35,CS106,Software Engineering,25.0,65.0,90.0,O,PASS,Computer Science & Engineering
+22CSE036,Student 36,CS101,Data Structures,26.0,66.0,92.0,O,PASS,Computer Science & Engineering
+22CSE036,Student 36,CS102,Algorithms,26.0,66.0,92.0,O,PASS,Computer Science & Engineering
+22CSE036,Student 36,CS103,Database Systems,26.0,66.0,92.0,O,PASS,Computer Science & Engineering
+22CSE036,Student 36,CS104,Operating Systems,26.0,66.0,92.0,O,PASS,Computer Science & Engineering
+22CSE036,Student 36,CS105,Computer Networks,26.0,66.0,92.0,O,PASS,Computer Science & Engineering
+22CSE036,Student 36,CS106,Software Engineering,26.0,66.0,92.0,O,PASS,Computer Science & Engineering
+22CSE037,Student 37,CS101,Data Structures,27.0,67.0,94.0,O,PASS,Computer Science & Engineering
+22CSE037,Student 37,CS102,Algorithms,27.0,67.0,94.0,O,PASS,Computer Science & Engineering
+22CSE037,Student 37,CS103,Database Systems,27.0,67.0,94.0,O,PASS,Computer Science & Engineering
+22CSE037,Student 37,CS104,Operating Systems,27.0,67.0,94.0,O,PASS,Computer Science & Engineering
+22CSE037,Student 37,CS105,Computer Networks,27.0,67.0,94.0,O,PASS,Computer Science & Engineering
+22CSE037,Student 37,CS106,Software Engineering,27.0,67.0,94.0,O,PASS,Computer Science & Engineering
+22CSE038,Student 38,CS101,Data Structures,28.0,68.0,96.0,O,PASS,Computer Science & Engineering
+22CSE038,Student 38,CS102,Algorithms,28.0,68.0,96.0,O,PASS,Computer Science & Engineering
+22CSE038,Student 38,CS103,Database Systems,28.0,68.0,96.0,O,PASS,Computer Science & Engineering
+22CSE038,Student 38,CS104,Operating Systems,28.0,68.0,96.0,O,PASS,Computer Science & Engineering
+22CSE038,Student 38,CS105,Computer Networks,28.0,68.0,96.0,O,PASS,Computer Science & Engineering
+22CSE038,Student 38,CS106,Software Engineering,28.0,68.0,96.0,O,PASS,Computer Science & Engineering
+22CSE039,Student 39,CS101,Data Structures,29.0,69.0,98.0,O,PASS,Computer Science & Engineering
+22CSE039,Student 39,CS102,Algorithms,29.0,69.0,98.0,O,PASS,Computer Science & Engineering
+22CSE039,Student 39,CS103,Database Systems,29.0,69.0,98.0,O,PASS,Computer Science & Engineering
+22CSE039,Student 39,CS104,Operating Systems,29.0,69.0,98.0,O,PASS,Computer Science & Engineering
+22CSE039,Student 39,CS105,Computer Networks,29.0,69.0,98.0,O,PASS,Computer Science & Engineering
+22CSE039,Student 39,CS106,Software Engineering,29.0,69.0,98.0,O,PASS,Computer Science & Engineering
+22CSE040,Student 40,CS101,Data Structures,25.0,60.0,85.0,A+,PASS,Computer Science & Engineering
+22CSE040,Student 40,CS102,Algorithms,25.0,60.0,85.0,A+,PASS,Computer Science & Engineering
+22CSE040,Student 40,CS103,Database Systems,25.0,60.0,85.0,A+,PASS,Computer Science & Engineering
+22CSE040,Student 40,CS104,Operating Systems,25.0,60.0,85.0,A+,PASS,Computer Science & Engineering
+22CSE040,Student 40,CS105,Computer Networks,25.0,60.0,85.0,A+,PASS,Computer Science & Engineering
+22CSE040,Student 40,CS106,Software Engineering,25.0,60.0,85.0,A+,PASS,Computer Science & Engineering
+22CSE041,Student 41,CS101,Data Structures,26.0,61.0,87.0,A+,PASS,Computer Science & Engineering
+22CSE041,Student 41,CS102,Algorithms,26.0,61.0,87.0,A+,PASS,Computer Science & Engineering
+22CSE041,Student 41,CS103,Database Systems,26.0,61.0,87.0,A+,PASS,Computer Science & Engineering
+22CSE041,Student 41,CS104,Operating Systems,26.0,61.0,87.0,A+,PASS,Computer Science & Engineering
+22CSE041,Student 41,CS105,Computer Networks,26.0,61.0,87.0,A+,PASS,Computer Science & Engineering
+22CSE041,Student 41,CS106,Software Engineering,26.0,61.0,87.0,A+,PASS,Computer Science & Engineering
+22CSE042,Student 42,CS101,Data Structures,27.0,62.0,89.0,A+,PASS,Computer Science & Engineering
+22CSE042,Student 42,CS102,Algorithms,27.0,62.0,89.0,A+,PASS,Computer Science & Engineering
+22CSE042,Student 42,CS103,Database Systems,27.0,62.0,89.0,A+,PASS,Computer Science & Engineering
+22CSE042,Student 42,CS104,Operating Systems,27.0,62.0,89.0,A+,PASS,Computer Science & Engineering
+22CSE042,Student 42,CS105,Computer Networks,27.0,62.0,89.0,A+,PASS,Computer Science & Engineering
+22CSE042,Student 42,CS106,Software Engineering,27.0,62.0,89.0,A+,PASS,Computer Science & Engineering
+22CSE043,Student 43,CS101,Data Structures,28.0,63.0,91.0,O,PASS,Computer Science & Engineering
+22CSE043,Student 43,CS102,Algorithms,28.0,63.0,91.0,O,PASS,Computer Science & Engineering
+22CSE043,Student 43,CS103,Database Systems,28.0,63.0,91.0,O,PASS,Computer Science & Engineering
+22CSE043,Student 43,CS104,Operating Systems,28.0,63.0,91.0,O,PASS,Computer Science & Engineering
+22CSE043,Student 43,CS105,Computer Networks,28.0,63.0,91.0,O,PASS,Computer Science & Engineering
+22CSE043,Student 43,CS106,Software Engineering,28.0,63.0,91.0,O,PASS,Computer Science & Engineering
+22CSE044,Student 44,CS101,Data Structures,29.0,64.0,93.0,O,PASS,Computer Science & Engineering
+22CSE044,Student 44,CS102,Algorithms,29.0,64.0,93.0,O,PASS,Computer Science & Engineering
+22CSE044,Student 44,CS103,Database Systems,29.0,64.0,93.0,O,PASS,Computer Science & Engineering
+22CSE044,Student 44,CS104,Operating Systems,29.0,64.0,93.0,O,PASS,Computer Science & Engineering
+22CSE044,Student 44,CS105,Computer Networks,29.0,64.0,93.0,O,PASS,Computer Science & Engineering
+22CSE044,Student 44,CS106,Software Engineering,29.0,64.0,93.0,O,PASS,Computer Science & Engineering
+22CSE045,Student 45,CS101,Data Structures,25.0,65.0,90.0,O,PASS,Computer Science & Engineering
+22CSE045,Student 45,CS102,Algorithms,25.0,65.0,90.0,O,PASS,Computer Science & Engineering
+22CSE045,Student 45,CS103,Database Systems,25.0,65.0,90.0,O,PASS,Computer Science & Engineering
+22CSE045,Student 45,CS104,Operating Systems,25.0,65.0,90.0,O,PASS,Computer Science & Engineering
+22CSE045,Student 45,CS105,Computer Networks,25.0,65.0,90.0,O,PASS,Computer Science & Engineering
+22CSE045,Student 45,CS106,Software Engineering,25.0,65.0,90.0,O,PASS,Computer Science & Engineering
+22CSE046,Student 46,CS101,Data Structures,26.0,66.0,92.0,O,PASS,Computer Science & Engineering
+22CSE046,Student 46,CS102,Algorithms,26.0,66.0,92.0,O,PASS,Computer Science & Engineering
+22CSE046,Student 46,CS103,Database Systems,26.0,66.0,92.0,O,PASS,Computer Science & Engineering
+22CSE046,Student 46,CS104,Operating Systems,26.0,66.0,92.0,O,PASS,Computer Science & Engineering
+22CSE046,Student 46,CS105,Computer Networks,26.0,66.0,92.0,O,PASS,Computer Science & Engineering
+22CSE046,Student 46,CS106,Software Engineering,26.0,66.0,92.0,O,PASS,Computer Science & Engineering
+22CSE047,Student 47,CS101,Data Structures,27.0,67.0,94.0,O,PASS,Computer Science & Engineering
+22CSE047,Student 47,CS102,Algorithms,27.0,67.0,94.0,O,PASS,Computer Science & Engineering
+22CSE047,Student 47,CS103,Database Systems,27.0,67.0,94.0,O,PASS,Computer Science & Engineering
+22CSE047,Student 47,CS104,Operating Systems,27.0,67.0,94.0,O,PASS,Computer Science & Engineering
+22CSE047,Student 47,CS105,Computer Networks,27.0,67.0,94.0,O,PASS,Computer Science & Engineering
+22CSE047,Student 47,CS106,Software Engineering,27.0,67.0,94.0,O,PASS,Computer Science & Engineering
+22CSE048,Student 48,CS101,Data Structures,28.0,68.0,96.0,O,PASS,Computer Science & Engineering
+22CSE048,Student 48,CS102,Algorithms,28.0,68.0,96.0,O,PASS,Computer Science & Engineering
+22CSE048,Student 48,CS103,Database Systems,28.0,68.0,96.0,O,PASS,Computer Science & Engineering
+22CSE048,Student 48,CS104,Operating Systems,28.0,68.0,96.0,O,PASS,Computer Science & Engineering
+22CSE048,Student 48,CS105,Computer Networks,28.0,68.0,96.0,O,PASS,Computer Science & Engineering
+22CSE048,Student 48,CS106,Software Engineering,28.0,68.0,96.0,O,PASS,Computer Science & Engineering
+22CSE049,Student 49,CS101,Data Structures,29.0,69.0,98.0,O,PASS,Computer Science & Engineering
+22CSE049,Student 49,CS102,Algorithms,29.0,69.0,98.0,O,PASS,Computer Science & Engineering
+22CSE049,Student 49,CS103,Database Systems,29.0,69.0,98.0,O,PASS,Computer Science & Engineering
+22CSE049,Student 49,CS104,Operating Systems,29.0,69.0,98.0,O,PASS,Computer Science & Engineering
+22CSE049,Student 49,CS105,Computer Networks,29.0,69.0,98.0,O,PASS,Computer Science & Engineering
+22CSE049,Student 49,CS106,Software Engineering,29.0,69.0,98.0,O,PASS,Computer Science & Engineering
+22CSE050,Student 50,CS101,Data Structures,25.0,60.0,85.0,A+,PASS,Computer Science & Engineering
+22CSE050,Student 50,CS102,Algorithms,25.0,60.0,85.0,A+,PASS,Computer Science & Engineering
+22CSE050,Student 50,CS103,Database Systems,25.0,60.0,85.0,A+,PASS,Computer Science & Engineering
+22CSE050,Student 50,CS104,Operating Systems,25.0,60.0,85.0,A+,PASS,Computer Science & Engineering
+22CSE050,Student 50,CS105,Computer Networks,25.0,60.0,85.0,A+,PASS,Computer Science & Engineering
+22CSE050,Student 50,CS106,Software Engineering,25.0,60.0,85.0,A+,PASS,Computer Science & Engineering
+22CSE051,Student 51,CS101,Data Structures,26.0,61.0,87.0,A+,PASS,Computer Science & Engineering
+22CSE051,Student 51,CS102,Algorithms,26.0,61.0,87.0,A+,PASS,Computer Science & Engineering
+22CSE051,Student 51,CS103,Database Systems,26.0,61.0,87.0,A+,PASS,Computer Science & Engineering
+22CSE051,Student 51,CS104,Operating Systems,26.0,61.0,87.0,A+,PASS,Computer Science & Engineering
+22CSE051,Student 51,CS105,Computer Networks,26.0,61.0,87.0,A+,PASS,Computer Science & Engineering
+22CSE051,Student 51,CS106,Software Engineering,26.0,61.0,87.0,A+,PASS,Computer Science & Engineering
+22CSE052,Student 52,CS101,Data Structures,27.0,62.0,89.0,A+,PASS,Computer Science & Engineering
+22CSE052,Student 52,CS102,Algorithms,27.0,62.0,89.0,A+,PASS,Computer Science & Engineering
+22CSE052,Student 52,CS103,Database Systems,27.0,62.0,89.0,A+,PASS,Computer Science & Engineering
+22CSE052,Student 52,CS104,Operating Systems,27.0,62.0,89.0,A+,PASS,Computer Science & Engineering
+22CSE052,Student 52,CS105,Computer Networks,27.0,62.0,89.0,A+,PASS,Computer Science & Engineering
+22CSE052,Student 52,CS106,Software Engineering,27.0,62.0,89.0,A+,PASS,Computer Science & Engineering
+22CSE053,Student 53,CS101,Data Structures,28.0,63.0,91.0,O,PASS,Computer Science & Engineering
+22CSE053,Student 53,CS102,Algorithms,28.0,63.0,91.0,O,PASS,Computer Science & Engineering
+22CSE053,Student 53,CS103,Database Systems,28.0,63.0,91.0,O,PASS,Computer Science & Engineering
+22CSE053,Student 53,CS104,Operating Systems,28.0,63.0,91.0,O,PASS,Computer Science & Engineering
+22CSE053,Student 53,CS105,Computer Networks,28.0,63.0,91.0,O,PASS,Computer Science & Engineering
+22CSE053,Student 53,CS106,Software Engineering,28.0,63.0,91.0,O,PASS,Computer Science & Engineering
+22CSE054,Student 54,CS101,Data Structures,29.0,64.0,93.0,O,PASS,Computer Science & Engineering
+22CSE054,Student 54,CS102,Algorithms,29.0,64.0,93.0,O,PASS,Computer Science & Engineering
+22CSE054,Student 54,CS103,Database Systems,29.0,64.0,93.0,O,PASS,Computer Science & Engineering
+22CSE054,Student 54,CS104,Operating Systems,29.0,64.0,93.0,O,PASS,Computer Science & Engineering
+22CSE054,Student 54,CS105,Computer Networks,29.0,64.0,93.0,O,PASS,Computer Science & Engineering
+22CSE054,Student 54,CS106,Software Engineering,29.0,64.0,93.0,O,PASS,Computer Science & Engineering
+22CSE055,Student 55,CS101,Data Structures,25.0,65.0,90.0,O,PASS,Computer Science & Engineering
+22CSE055,Student 55,CS102,Algorithms,25.0,65.0,90.0,O,PASS,Computer Science & Engineering
+22CSE055,Student 55,CS103,Database Systems,25.0,65.0,90.0,O,PASS,Computer Science & Engineering
+22CSE055,Student 55,CS104,Operating Systems,25.0,65.0,90.0,O,PASS,Computer Science & Engineering
+22CSE055,Student 55,CS105,Computer Networks,25.0,65.0,90.0,O,PASS,Computer Science & Engineering
+22CSE055,Student 55,CS106,Software Engineering,25.0,65.0,90.0,O,PASS,Computer Science & Engineering
+22CSE056,Student 56,CS101,Data Structures,26.0,66.0,92.0,O,PASS,Computer Science & Engineering
+22CSE056,Student 56,CS102,Algorithms,26.0,66.0,92.0,O,PASS,Computer Science & Engineering
+22CSE056,Student 56,CS103,Database Systems,26.0,66.0,92.0,O,PASS,Computer Science & Engineering
+22CSE056,Student 56,CS104,Operating Systems,26.0,66.0,92.0,O,PASS,Computer Science & Engineering
+22CSE056,Student 56,CS105,Computer Networks,26.0,66.0,92.0,O,PASS,Computer Science & Engineering
+22CSE056,Student 56,CS106,Software Engineering,26.0,66.0,92.0,O,PASS,Computer Science & Engineering
+22CSE057,Student 57,CS101,Data Structures,27.0,67.0,94.0,O,PASS,Computer Science & Engineering
+22CSE057,Student 57,CS102,Algorithms,27.0,67.0,94.0,O,PASS,Computer Science & Engineering
+22CSE057,Student 57,CS103,Database Systems,27.0,67.0,94.0,O,PASS,Computer Science & Engineering
+22CSE057,Student 57,CS104,Operating Systems,27.0,67.0,94.0,O,PASS,Computer Science & Engineering
+22CSE057,Student 57,CS105,Computer Networks,27.0,67.0,94.0,O,PASS,Computer Science & Engineering
+22CSE057,Student 57,CS106,Software Engineering,27.0,67.0,94.0,O,PASS,Computer Science & Engineering
+22CSE058,Student 58,CS101,Data Structures,28.0,68.0,96.0,O,PASS,Computer Science & Engineering
+22CSE058,Student 58,CS102,Algorithms,28.0,68.0,96.0,O,PASS,Computer Science & Engineering
+22CSE058,Student 58,CS103,Database Systems,28.0,68.0,96.0,O,PASS,Computer Science & Engineering
+22CSE058,Student 58,CS104,Operating Systems,28.0,68.0,96.0,O,PASS,Computer Science & Engineering
+22CSE058,Student 58,CS105,Computer Networks,28.0,68.0,96.0,O,PASS,Computer Science & Engineering
+22CSE058,Student 58,CS106,Software Engineering,28.0,68.0,96.0,O,PASS,Computer Science & Engineering
+22CSE059,Student 59,CS101,Data Structures,29.0,69.0,98.0,O,PASS,Computer Science & Engineering
+22CSE059,Student 59,CS102,Algorithms,29.0,69.0,98.0,O,PASS,Computer Science & Engineering
+22CSE059,Student 59,CS103,Database Systems,29.0,69.0,98.0,O,PASS,Computer Science & Engineering
+22CSE059,Student 59,CS104,Operating Systems,29.0,69.0,98.0,O,PASS,Computer Science & Engineering
+22CSE059,Student 59,CS105,Computer Networks,29.0,69.0,98.0,O,PASS,Computer Science & Engineering
+22CSE059,Student 59,CS106,Software Engineering,29.0,69.0,98.0,O,PASS,Computer Science & Engineering
+22CSE060,Student 60,CS101,Data Structures,25.0,60.0,85.0,A+,PASS,Computer Science & Engineering
+22CSE060,Student 60,CS102,Algorithms,25.0,60.0,85.0,A+,PASS,Computer Science & Engineering
+22CSE060,Student 60,CS103,Database Systems,25.0,60.0,85.0,A+,PASS,Computer Science & Engineering
+22CSE060,Student 60,CS104,Operating Systems,25.0,60.0,85.0,A+,PASS,Computer Science & Engineering
+22CSE060,Student 60,CS105,Computer Networks,25.0,60.0,85.0,A+,PASS,Computer Science & Engineering
+22CSE060,Student 60,CS106,Software Engineering,25.0,60.0,85.0,A+,PASS,Computer Science & Engineering
+22CSE061,Student 61,CS101,Data Structures,26.0,61.0,87.0,A+,PASS,Computer Science & Engineering
+22CSE061,Student 61,CS102,Algorithms,26.0,61.0,87.0,A+,PASS,Computer Science & Engineering
+22CSE061,Student 61,CS103,Database Systems,26.0,61.0,87.0,A+,PASS,Computer Science & Engineering
+22CSE061,Student 61,CS104,Operating Systems,26.0,61.0,87.0,A+,PASS,Computer Science & Engineering
+22CSE061,Student 61,CS105,Computer Networks,26.0,61.0,87.0,A+,PASS,Computer Science & Engineering
+22CSE061,Student 61,CS106,Software Engineering,26.0,61.0,87.0,A+,PASS,Computer Science & Engineering
+22CSE062,Student 62,CS101,Data Structures,27.0,62.0,89.0,A+,PASS,Computer Science & Engineering
+22CSE062,Student 62,CS102,Algorithms,27.0,62.0,89.0,A+,PASS,Computer Science & Engineering
+22CSE062,Student 62,CS103,Database Systems,27.0,62.0,89.0,A+,PASS,Computer Science & Engineering
+22CSE062,Student 62,CS104,Operating Systems,27.0,62.0,89.0,A+,PASS,Computer Science & Engineering
+22CSE062,Student 62,CS105,Computer Networks,27.0,62.0,89.0,A+,PASS,Computer Science & Engineering
+22CSE062,Student 62,CS106,Software Engineering,27.0,62.0,89.0,A+,PASS,Computer Science & Engineering
+22CSE063,Student 63,CS101,Data Structures,28.0,63.0,91.0,O,PASS,Computer Science & Engineering
+22CSE063,Student 63,CS102,Algorithms,28.0,63.0,91.0,O,PASS,Computer Science & Engineering
+22CSE063,Student 63,CS103,Database Systems,28.0,63.0,91.0,O,PASS,Computer Science & Engineering
+22CSE063,Student 63,CS104,Operating Systems,28.0,63.0,91.0,O,PASS,Computer Science & Engineering
+22CSE063,Student 63,CS105,Computer Networks,28.0,63.0,91.0,O,PASS,Computer Science & Engineering
+22CSE063,Student 63,CS106,Software Engineering,28.0,63.0,91.0,O,PASS,Computer Science & Engineering
+22CSE064,Student 64,CS101,Data Structures,29.0,64.0,93.0,O,PASS,Computer Science & Engineering
+22CSE064,Student 64,CS102,Algorithms,29.0,64.0,93.0,O,PASS,Computer Science & Engineering
+22CSE064,Student 64,CS103,Database Systems,29.0,64.0,93.0,O,PASS,Computer Science & Engineering
+22CSE064,Student 64,CS104,Operating Systems,29.0,64.0,93.0,O,PASS,Computer Science & Engineering
+22CSE064,Student 64,CS105,Computer Networks,29.0,64.0,93.0,O,PASS,Computer Science & Engineering
+22CSE064,Student 64,CS106,Software Engineering,29.0,64.0,93.0,O,PASS,Computer Science & Engineering
+22CSE065,Student 65,CS101,Data Structures,25.0,65.0,90.0,O,PASS,Computer Science & Engineering
+22CSE065,Student 65,CS102,Algorithms,25.0,65.0,90.0,O,PASS,Computer Science & Engineering
+22CSE065,Student 65,CS103,Database Systems,25.0,65.0,90.0,O,PASS,Computer Science & Engineering
+22CSE065,Student 65,CS104,Operating Systems,25.0,65.0,90.0,O,PASS,Computer Science & Engineering
+22CSE065,Student 65,CS105,Computer Networks,25.0,65.0,90.0,O,PASS,Computer Science & Engineering
+22CSE065,Student 65,CS106,Software Engineering,25.0,65.0,90.0,O,PASS,Computer Science & Engineering
+22CSE066,Student 66,CS101,Data Structures,26.0,66.0,92.0,O,PASS,Computer Science & Engineering
+22CSE066,Student 66,CS102,Algorithms,26.0,66.0,92.0,O,PASS,Computer Science & Engineering
+22CSE066,Student 66,CS103,Database Systems,26.0,66.0,92.0,O,PASS,Computer Science & Engineering
+22CSE066,Student 66,CS104,Operating Systems,26.0,66.0,92.0,O,PASS,Computer Science & Engineering
+22CSE066,Student 66,CS105,Computer Networks,26.0,66.0,92.0,O,PASS,Computer Science & Engineering
+22CSE066,Student 66,CS106,Software Engineering,26.0,66.0,92.0,O,PASS,Computer Science & Engineering
+22CSE067,Student 67,CS101,Data Structures,27.0,67.0,94.0,O,PASS,Computer Science & Engineering
+22CSE067,Student 67,CS102,Algorithms,27.0,67.0,94.0,O,PASS,Computer Science & Engineering
+22CSE067,Student 67,CS103,Database Systems,27.0,67.0,94.0,O,PASS,Computer Science & Engineering
+22CSE067,Student 67,CS104,Operating Systems,27.0,67.0,94.0,O,PASS,Computer Science & Engineering
+22CSE067,Student 67,CS105,Computer Networks,27.0,67.0,94.0,O,PASS,Computer Science & Engineering
+22CSE067,Student 67,CS106,Software Engineering,27.0,67.0,94.0,O,PASS,Computer Science & Engineering
+22CSE068,Student 68,CS101,Data Structures,28.0,68.0,96.0,O,PASS,Computer Science & Engineering
+22CSE068,Student 68,CS102,Algorithms,28.0,68.0,96.0,O,PASS,Computer Science & Engineering
+22CSE068,Student 68,CS103,Database Systems,28.0,68.0,96.0,O,PASS,Computer Science & Engineering
+22CSE068,Student 68,CS104,Operating Systems,28.0,68.0,96.0,O,PASS,Computer Science & Engineering
+22CSE068,Student 68,CS105,Computer Networks,28.0,68.0,96.0,O,PASS,Computer Science & Engineering
+22CSE068,Student 68,CS106,Software Engineering,28.0,68.0,96.0,O,PASS,Computer Science & Engineering
+22CSE069,Student 69,CS101,Data Structures,29.0,69.0,98.0,O,PASS,Computer Science & Engineering
+22CSE069,Student 69,CS102,Algorithms,29.0,69.0,98.0,O,PASS,Computer Science & Engineering
+22CSE069,Student 69,CS103,Database Systems,29.0,69.0,98.0,O,PASS,Computer Science & Engineering
+22CSE069,Student 69,CS104,Operating Systems,29.0,69.0,98.0,O,PASS,Computer Science & Engineering
+22CSE069,Student 69,CS105,Computer Networks,29.0,69.0,98.0,O,PASS,Computer Science & Engineering
+22CSE069,Student 69,CS106,Software Engineering,29.0,69.0,98.0,O,PASS,Computer Science & Engineering
+22CSE070,Student 70,CS101,Data Structures,25.0,60.0,85.0,A+,PASS,Computer Science & Engineering
+22CSE070,Student 70,CS102,Algorithms,25.0,60.0,85.0,A+,PASS,Computer Science & Engineering
+22CSE070,Student 70,CS103,Database Systems,25.0,60.0,85.0,A+,PASS,Computer Science & Engineering
+22CSE070,Student 70,CS104,Operating Systems,25.0,60.0,85.0,A+,PASS,Computer Science & Engineering
+22CSE070,Student 70,CS105,Computer Networks,25.0,60.0,85.0,A+,PASS,Computer Science & Engineering
+22CSE070,Student 70,CS106,Software Engineering,25.0,60.0,85.0,A+,PASS,Computer Science & Engineering

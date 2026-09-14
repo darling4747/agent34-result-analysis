@@ -1,0 +1,162 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 222 47% 11%;
+    --card: 0 0% 100%;
+    --card-foreground: 222 47% 11%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 222 47% 11%;
+    --primary: 221 83% 53%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 210 40% 96%;
+    --secondary-foreground: 222 47% 11%;
+    --muted: 210 40% 96%;
+    --muted-foreground: 215 16% 47%;
+    --accent: 210 40% 96%;
+    --accent-foreground: 222 47% 11%;
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
+    --border: 214 32% 91%;
+    --input: 214 32% 91%;
+    --ring: 221 83% 53%;
+    --radius: 0.5rem;
+    --sidebar-width: 240px;
+  }
+
+  * {
+    border-color: hsl(var(--border));
+    box-sizing: border-box;
+  }
+
+  body {
+    margin: 0;
+    background-color: hsl(210 40% 98%);
+    color: hsl(var(--foreground));
+    font-family: 'Inter', system-ui, -apple-system, 'Segoe UI', sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  #root {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@layer utilities {
+  .scrollbar-thin {
+    scrollbar-width: thin;
+    scrollbar-color: hsl(var(--border)) transparent;
+  }
+  .scrollbar-thin::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+  .scrollbar-thin::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  .scrollbar-thin::-webkit-scrollbar-thumb {
+    background-color: hsl(var(--border));
+    border-radius: 3px;
+  }
+}
+
+/* ── Global tech-bg design ───────────────────────────────────────────────── */
+.tech-bg {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  overflow: hidden;
+
+  background:
+    radial-gradient(
+      ellipse at 8% 45%,
+      rgba(255, 255, 255, 0.98) 0%,
+      rgba(255, 255, 255, 0.65) 20%,
+      transparent 48%
+    ),
+    radial-gradient(
+      ellipse at 92% 42%,
+      rgba(164, 205, 250, 0.42) 0%,
+      rgba(190, 221, 253, 0.25) 35%,
+      transparent 68%
+    ),
+    radial-gradient(
+      ellipse at 55% 105%,
+      rgba(190, 220, 252, 0.55) 0%,
+      transparent 55%
+    ),
+    linear-gradient(
+      105deg,
+      #fafafa 0%,
+      #f5f9fd 18%,
+      #eaf3fc 43%,
+      #dcecfb 68%,
+      #c7e0f9 100%
+    );
+}
+
+.tech-bg::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+
+  background:
+    linear-gradient(
+      145deg,
+      transparent 0%,
+      transparent 49.7%,
+      rgba(255, 255, 255, 0.28) 49.8%,
+      rgba(255, 255, 255, 0.28) 49.9%,
+      transparent 50%
+    ),
+    linear-gradient(
+      35deg,
+      transparent 0%,
+      transparent 49.7%,
+      rgba(255, 255, 255, 0.20) 49.8%,
+      rgba(255, 255, 255, 0.20) 49.9%,
+      transparent 50%
+    ),
+    linear-gradient(
+      160deg,
+      transparent 0%,
+      transparent 49.8%,
+      rgba(255, 255, 255, 0.18) 49.9%,
+      rgba(255, 255, 255, 0.18) 50%,
+      transparent 50.1%
+    );
+
+  background-size: 430px 270px, 360px 300px, 520px 350px;
+  opacity: 0.45;
+  filter: blur(0.2px);
+  pointer-events: none;
+}
+
+.tech-bg::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+
+  background:
+    radial-gradient(circle at 31% 18%, rgba(255,255,255,0.95) 0px, rgba(255,255,255,0.65) 1px, rgba(255,255,255,0.15) 3px, transparent 8px),
+    radial-gradient(circle at 24% 55%, rgba(255,255,255,0.95) 0px, rgba(255,255,255,0.55) 1px, rgba(255,255,255,0.12) 4px, transparent 9px),
+    radial-gradient(circle at 51% 27%, rgba(255,255,255,0.95) 0px, rgba(255,255,255,0.55) 1px, rgba(255,255,255,0.12) 4px, transparent 9px),
+    radial-gradient(circle at 82% 13%, rgba(255,255,255,1) 0px, rgba(255,255,255,0.65) 1px, rgba(255,255,255,0.16) 4px, transparent 10px),
+    radial-gradient(circle at 91% 42%, rgba(255,255,255,1) 0px, rgba(255,255,255,0.65) 1px, rgba(255,255,255,0.15) 4px, transparent 10px),
+    radial-gradient(circle at 12% 82%, rgba(255,255,255,0.9) 0px, rgba(255,255,255,0.5) 1px, transparent 8px),
+    radial-gradient(circle at 75% 88%, rgba(255,255,255,0.9) 0px, rgba(255,255,255,0.5) 1px, transparent 8px);
+
+  filter: blur(0.2px);
+  pointer-events: none;
+}
+
+.tech-bg > * {
+  position: relative;
+  z-index: 1;
+}
